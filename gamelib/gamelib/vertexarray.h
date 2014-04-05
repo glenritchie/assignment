@@ -156,7 +156,7 @@ public:
 	unsigned int getDuplicates() const { return duplicates; }
 
 
-void VertexSet::setData(unsigned int indices[], unsigned int icount,
+void setData(unsigned int indices[], unsigned int icount,
                         Vertex vertices[], unsigned int vcount, 
 												unsigned int texids[], unsigned int tcount);
 

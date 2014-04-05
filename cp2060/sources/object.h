@@ -104,7 +104,7 @@ public:
 	/** Get the origin of this object relative to it's parent
 	 * @param v x, y, z positions RELATIVE to the parent
 	 */
-	void Object::getOrigin(float v[3]);
+	void getOrigin(float v[3]);
 	/** Set the origin of this object relative to it's parent
 	 * @param v x, y, z positions RELATIVE to the parent
 	 */
@@ -181,7 +181,7 @@ public:
 	 * @param file The file to read from.
 	*/
 	virtual void readParams(ifstream &file, unsigned int &lineNumber, unsigned int &level) { ; }
-	MATRIX Object::findObjectWorldCoords(float &x, float &y, float &z);
+	MATRIX findObjectWorldCoords(float &x, float &y, float &z);
 
 	/** Get the name of this node 
 	 * @return The name of this node */

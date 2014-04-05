@@ -27,6 +27,7 @@ public:
 	* @param configfile The string to open */
 	void SetConfigFile(const char *configfile);
 	
+/*
 	template <typename datatype>
 	bool SetSetting(const char *section, const char *key, datatype value)
 	{
@@ -57,7 +58,7 @@ public:
 
 		return true;
 	}
-	
+*/	
 	/** 
 	 * Default function to input most things like ints, floats etc
 	 * @param section The section to search in: eg [Game]

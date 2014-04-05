@@ -8,9 +8,11 @@ include flags.def
 include common.def
 echo: 
 	echo Using args: $(CFLAGS)
+mk:
+	mkdir -p ../bin
 
 FORCE:
-link: all 
+link: mk all 
 	cd ../../gamelib/sources; $(MAKE) link
 	echo Linking...
 #	g++ -rdynamic -ggdb -g3 $(objects)  -lGLU -lGL -o ../bin/assignment -lglut -lXmu -lXt -lX11 -lpthread -lXi -lXext -lm -L/usr/X11R6/lib ../../gamelib/gamelib.o

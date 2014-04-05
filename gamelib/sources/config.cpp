@@ -3,6 +3,7 @@
 #include "textutils.h"
 //#include <string.h>
 #include <string>
+#include <string.h>
 #include <stdio.h>
 using namespace std;
 /******************************
@@ -151,8 +152,8 @@ bool AppConfig::SeekToKey(const char *key)
 			std::string data = line.substr(start, ssize);
 			eatWhiteSpace(data);
 //			DebugText(EMSG, "Data: %s", data.c_str());		
-			if (data.size() == 0)
-				::exit(-2);
+			//if (data.size() == 0)
+		//		exit(-2);
 			
 			config_file.clear();
 			config_file.seekg(magicPositionA);

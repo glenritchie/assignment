@@ -1,12 +1,15 @@
 MAKEFLAGS+= -s
 INCLUDES = -I../gamelib/
-COMMONFLAGS = -c $(INCLUDES) -mcpu=i686
+COMMONFLAGS = -c $(INCLUDES) -mtune=i686
 RELEASECFLAGS = $(COMMONFLAGS) -O3
 DEBUGCFLAGS = $(COMMONFLAGS) -DDEBUG -ggdb -g3 -fverbose-asm 
 #export CFLAGS+=$(RELEASECFLAGS)
 export CFLAGS+=$(DEBUGCFLAGS)
 
-all: $(objects)
+all: mkd $(objects)
+mkd:
+	mkdir -p ../objects
+
 $(objects): $@ 
 	echo [g++] $@
 	g++ $(CFLAGS) $(patsubst %.o,%.cpp,$(@F)) -o $@
@@ -21,4 +24,4 @@ $(objects): $@
 subclean:
 	rm -f *.d
 
-include $(patsubst $(ODIR)/%.o, $(ODIR)/%.d, $(objects))
+-include $(patsubst $(ODIR)/%.o, $(ODIR)/%.d, $(objects))

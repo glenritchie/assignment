@@ -3,8 +3,11 @@ INCLUDES = -Iode -I.. -Iwindow -I../../gamelib/gamelib/
 # $(objects) variable
 all: $(objects)
 
+
 # For each target object make the .cpp for it
 ../objects/%.o: %.cpp
+
+	mkdir -p ${ODIR}
 	echo [g++] $@
 # the object file is given as .o so we use a make internal comman
 # called patsubst to convert the .o in the filename to .cpp
