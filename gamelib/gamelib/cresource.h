@@ -84,8 +84,13 @@ public:
 	{
 		std::string final;
 		char tmp[1000];
+#ifdef sprintf_s
 		sprintf_s(tmp, 1000,", in_memory: %d, name: %s, ref_count: %d, remove: %d",
 			in_memory, resource_name.c_str(), ref_count, remove);
+#elif snprintf
+		snprintf(tmp, 1000, ", in_memory: %d, name: %s, ref_count: %d, remove: %d",
+			in_memory, resource_name.c_str(), ref_count, remove);
+#endif
 		final.append(tmp);
 		return final;
 	}
