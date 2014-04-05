@@ -1,0 +1,10 @@
+// Format of this file
+LINE
+C RED Help Menu
+ELINE
+LINE
+L RED Pause
+R BLUE F1
+ELINE
+
+

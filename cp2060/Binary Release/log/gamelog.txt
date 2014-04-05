@@ -1,0 +1,162 @@
+Log started: Sat Apr 05 12:53:29 2014
+
+12:53:29 Creating window of size: width:700, height:700
+12:53:29 Multi texture is availiable!
+12:53:29 Directory changed: Reloading model files
+12:53:29 Loading model models/world.pov
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object world1stepsSouth' has no idle frames!
+12:53:29 Loading model models/world1steps.pov
+12:53:29 Done loading model
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object world1stepsNorth' has no idle frames!
+12:53:29 Loading model models/world1steps2.pov
+12:53:29 Done loading model
+12:53:29 Loading model models/robot2.pov
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object leftHand' has no idle frames!
+12:53:29 Loading model models/lefthand.pov
+12:53:29 Done loading model
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object rightHand' has no idle frames!
+12:53:29 Loading model models/righthand.pov
+12:53:29 Done loading model
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/walk.frm' into object: models/robot2.pov
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object chairA' has no idle frames!
+12:53:29 Loading model models/chair.pov
+12:53:29 Done loading model
+12:53:29 ERROR_NONCRITICAL: Warning.. 'object waypoints' has no idle frames!
+12:53:29 Loading model models/world1waypoints.pov
+12:53:29 Done loading model
+12:53:29 Loading model models/lamppost.pov
+12:53:29 l ==== 0x0
+12:53:29 ------(2)Created light: 0x2221f80
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/lampidle.frm' into object: models/lamppost.pov
+12:53:29 Loading model models/lamppost.pov
+12:53:29 l ==== 0x0
+12:53:29 ------(2)Created light: 0x2194238
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/lampidle.frm' into object: models/lamppost.pov
+12:53:29 Loading model models/lamppost.pov
+12:53:29 l ==== 0x0
+12:53:29 ------(2)Created light: 0x2194bc0
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/lampidle.frm' into object: models/lamppost.pov
+12:53:29 Loading model models/lamppost.pov
+12:53:29 l ==== 0x0
+12:53:29 ------(2)Created light: 0x21ddf40
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/lampidle.frm' into object: models/lamppost.pov
+12:53:29 Done loading model
+12:53:29 Reading frames 'models/standing.frm' into object: models/robot2.pov
+12:53:29 Creating links from object chairwaypoint
+12:53:29 Connecting to object waypoint5
+12:53:29 Creating links from object waypoint2
+12:53:29 Connecting to object waypoint3
+12:53:29 Creating links from object waypoint3
+12:53:29 Connecting to object waypoint2
+12:53:29 Connecting to object waypoint4
+12:53:29 Creating links from object waypoint4
+12:53:29 Connecting to object waypoint3
+12:53:29 Connecting to object waypoint5
+12:53:29 Creating links from object waypoint5
+12:53:29 Connecting to object waypoint4
+12:53:29 Connecting to object chairwaypoint
+12:53:29 Doing object barrier: x:64, y:64
+12:53:29 'object barrier' took 0.36 secs: ft:110472
+12:53:29 Doing object barrier2: x:64, y:64
+12:53:30 'object barrier2' took 0.35 secs: ft:108768
+12:53:30 Doing object upperSlopedbarrier: x:64, y:64
+12:53:30 'object upperSlopedbarrier' took 0.30 secs: ft:84628
+12:53:30 Doing object ground: x:64, y:64
+12:53:30 'object ground' took 0.18 secs: ft:59761
+12:53:30 Doing object step0: x:64, y:64
+12:53:31 'object step0' took 0.52 secs: ft:227919
+12:53:31 Doing object step1: x:64, y:64
+12:53:31 'object step1' took 0.55 secs: ft:266404
+12:53:31 Doing object step2: x:64, y:64
+12:53:32 'object step2' took 0.55 secs: ft:293267
+12:53:32 Doing object step3: x:64, y:64
+12:53:32 'object step3' took 0.53 secs: ft:287980
+12:53:32 Doing object step4: x:64, y:64
+12:53:33 'object step4' took 0.41 secs: ft:217901
+12:53:33 Doing object step5: x:64, y:64
+12:53:33 'object step5' took 0.52 secs: ft:296433
+12:53:33 Doing object step6: x:64, y:64
+12:53:34 'object step6' took 0.52 secs: ft:295449
+12:53:34 Doing object step7: x:64, y:64
+12:53:34 'object step7' took 0.50 secs: ft:261893
+12:53:34 Doing object step8: x:64, y:64
+12:53:35 'object step8' took 0.40 secs: ft:156836
+12:53:35 Doing object step0: x:64, y:64
+12:53:35 'object step0' took 0.52 secs: ft:183688
+12:53:35 Doing object step1: x:64, y:64
+12:53:36 'object step1' took 0.57 secs: ft:238733
+12:53:36 Doing object step2: x:64, y:64
+12:53:36 'object step2' took 0.58 secs: ft:266209
+12:53:36 Doing object step3: x:64, y:64
+12:53:37 'object step3' took 0.57 secs: ft:273312
+12:53:37 Doing object step4: x:64, y:64
+12:53:37 'object step4' took 0.45 secs: ft:204329
+12:53:37 Doing object step5: x:64, y:64
+12:53:38 'object step5' took 0.56 secs: ft:289459
+12:53:38 Doing object step6: x:64, y:64
+12:53:39 'object step6' took 0.56 secs: ft:283160
+12:53:39 Doing object step7: x:64, y:64
+12:53:39 'object step7' took 0.56 secs: ft:265973
+12:53:39 Doing object step8: x:64, y:64
+12:53:40 'object step8' took 0.49 secs: ft:186764
+12:53:40 Doing object platformSouth: x:64, y:64
+12:53:40 'object platformSouth' took 0.40 secs: ft:122259
+12:53:40 Doing object platformNorth: x:64, y:64
+12:53:40 'object platformNorth' took 0.44 secs: ft:112425
+12:53:40 Doing object platformHolderSouth: x:64, y:64
+12:53:41 'object platformHolderSouth' took 0.41 secs: ft:162443
+12:53:41 Doing object platformHolderNorth: x:64, y:64
+12:53:41 'object platformHolderNorth' took 0.45 secs: ft:164206
+12:53:41 Doing object seat: x:64, y:64
+12:53:42 'object seat' took 0.68 secs: ft:486532
+12:53:42 Doing object frontLeftChairLeg: x:64, y:64
+12:53:43 'object frontLeftChairLeg' took 0.69 secs: ft:476954
+12:53:43 Doing object frontRightChairLeg: x:64, y:64
+12:53:43 'object frontRightChairLeg' took 0.69 secs: ft:508434
+12:53:43 Doing object backLeftChairLeg: x:64, y:64
+12:53:44 'object backLeftChairLeg' took 0.70 secs: ft:533110
+12:53:44 Doing object backRightChairLeg: x:64, y:64
+12:53:45 'object backRightChairLeg' took 0.69 secs: ft:485568
+12:53:45 Doing object chairBack: x:64, y:64
+12:53:45 'object chairBack' took 0.53 secs: ft:257287
+12:53:45 Doing object left: x:64, y:64
+12:53:45 'object left' took 0.18 secs: ft:43027
+12:53:45 Doing object right: x:64, y:64
+12:53:46 'object right' took 0.18 secs: ft:42284
+12:53:46 Doing object south: x:64, y:64
+12:53:46 'object south' took 0.18 secs: ft:51318
+12:53:46 Doing object north: x:64, y:64
+12:53:46 'object north' took 0.19 secs: ft:46819
+12:53:46 Doing object vent: x:64, y:64
+12:53:47 'object vent' took 0.56 secs: ft:149535
+12:53:47 Doing object bottomAltar: x:64, y:64
+12:53:47 'object bottomAltar' took 0.53 secs: ft:167866
+12:53:47 Doing object topAltar: x:64, y:64
+12:53:48 'object topAltar' took 0.52 secs: ft:161243
+12:53:48 Doing object glenPic: x:64, y:64
+12:53:48 'object glenPic' took 0.46 secs: ft:115245
+12:53:48 Doing object thegamPic: x:64, y:64
+12:53:49 'object thegamPic' took 0.47 secs: ft:130419
+12:53:49 Doing object roof: x:64, y:64
+12:53:49 'object roof' took 0.17 secs: ft:28689
+12:53:49 Doing object base: x:64, y:64
+12:53:49 'object base' took 0.52 secs: ft:269440
+12:53:49 Doing object base: x:64, y:64
+12:53:50 'object base' took 0.40 secs: ft:160320
+12:53:50 Doing object base: x:64, y:64
+12:53:50 'object base' took 0.44 secs: ft:213535
+12:53:50 Doing object base: x:64, y:64
+12:53:51 'object base' took 0.46 secs: ft:197954
+12:53:51 Loading light texture...
+12:53:51 Loading light texture...
+12:53:51 Loading light texture...
+12:53:51 Loading light texture...
+12:53:51 Loading light texture...
+
+Log Ended: Sat Apr 05 12:53:54 2014
+

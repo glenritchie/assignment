@@ -1,0 +1,49 @@
+// Texture aliases
+// eg. CONSOLE = console.png
+// Filter types: BOX, TRIANGLE, NONE
+[util_font]
+image = "normfont.tga"
+filter = "NONE"
+clamp = 0
+
+[console]
+image = "console.tga"
+filter = "BOX"
+
+[window_background]
+image = "wbackground.tga"
+filter = "BOX"
+
+[grab_bar_texure_up]
+image = "grabbar_up.tga"
+filter = "BOX"
+
+[grab_bar_texture_over]
+image = "grabbar_over.tga"
+filter = "BOX"
+
+[garb_bar_texture_down]
+image = "grabbar_down.tga"
+filter = "BOX"
+
+[grab_bar_texture_click]
+image = "grabbar_down.tga"
+filter = "BOX"
+
+[checkbox_texture_true]
+image = "checkbox_true.tga"
+filter = "BOX"
+
+[checkbox_texture_false]
+image = "checkbox_false.tga"
+filter = "BOX"
+
+[mouse]
+image = "mouse.tga"
+filter = "BOX"
+clamp = 1
+
+[light]
+//image = "twinkle.tga"
+image = "lens_flare1.tga"
+

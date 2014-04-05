@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cp2060", "cp2060.vcproj", "{A4116D4C-2F9B-40CD-99D8-3B58D6EF3118}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50D100CE-32C6-404A-8C86-4E7D7DA2A56D} = {50D100CE-32C6-404A-8C86-4E7D7DA2A56D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gamelib", "..\gamelib\gamelib.vcproj", "{50D100CE-32C6-404A-8C86-4E7D7DA2A56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4116D4C-2F9B-40CD-99D8-3B58D6EF3118}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4116D4C-2F9B-40CD-99D8-3B58D6EF3118}.Debug|Win32.Build.0 = Debug|Win32
+		{A4116D4C-2F9B-40CD-99D8-3B58D6EF3118}.Release|Win32.ActiveCfg = Release|Win32
+		{A4116D4C-2F9B-40CD-99D8-3B58D6EF3118}.Release|Win32.Build.0 = Release|Win32
+		{50D100CE-32C6-404A-8C86-4E7D7DA2A56D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50D100CE-32C6-404A-8C86-4E7D7DA2A56D}.Debug|Win32.Build.0 = Debug|Win32
+		{50D100CE-32C6-404A-8C86-4E7D7DA2A56D}.Release|Win32.ActiveCfg = Release|Win32
+		{50D100CE-32C6-404A-8C86-4E7D7DA2A56D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

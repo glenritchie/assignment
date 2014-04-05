@@ -1,0 +1,6 @@
+F COMMON.DEF;1                                                                                                                                                                                                    	common.def
+D CVS                                                                                                                                                                                                             	cvs
+F MAIN.CPP;1                                                                                                                                                                                                      	main.cpp
+F MAKEFILE.;1                                                                                                                                                                                                     	makefile
+F MODEL.CPP;1                                                                                                                                                                                                     	model.cpp
+F MODEL.H;1                                                                                                                                                                                                       	model.h

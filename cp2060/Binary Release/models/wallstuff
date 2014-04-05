@@ -1,0 +1,60 @@
+    object wallA
+    {
+		origin -50 10 0 
+		texture brickwall.tga
+		type box
+		{
+			faceTexScale2 5 1
+			faceTexScale3 5 1
+			//faceTexScale2 6 6
+			width 2
+			height 20
+			depth 100
+		}
+	}
+    object wallD
+    {
+		origin 50 10 0 
+		texture brickwall.tga
+		type box
+		{
+			faceTexScale2 5 1
+			faceTexScale3 5 1
+			//faceTexScale2 6 6
+			width 2
+			height 20
+			depth 100
+		}
+	}
+    object wallB
+    {
+		origin -50 10 
+		texture brickwall.tga
+		angles 0 90 0
+		//pivot
+		type box
+		{
+			faceTexScale2 5 1
+			faceTexScale3 5 1
+			//faceTexScale2 6 6
+			width 1
+			height 20
+			depth 100
+		}
+	}
+    object wallC
+    {
+		origin -50 10 
+		texture brickwall.tga
+		angles 0 -90 0
+		//pivot
+		type box
+		{
+			faceTexScale2 5 1
+			faceTexScale3 5 1
+			//faceTexScale2 6 6
+			width 1
+			height 20
+			depth 100
+		}
+	}

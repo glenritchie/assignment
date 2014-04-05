@@ -1,0 +1,11 @@
+brickwall.tga 110
+carpet1.tga 2486
+conanchest.tga 110
+glen.tga 110
+lens_flare1.tga 542
+magicfont1 541
+ready4battle.tga 110
+tsl_wire2.tga 0
+util_font 114
+vent.tga 110
+wbackground.tga 218

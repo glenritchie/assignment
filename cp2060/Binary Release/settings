@@ -1,0 +1,11 @@
+[Window]
+width = 700
+height = 700
+
+[Textures]
+scale = 0 
+scaleval = 64 
+lightmapsize = 64
+maxlightmapsize = 64
+showtrace = 1
+dotrace = 1
